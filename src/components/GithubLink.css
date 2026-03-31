@@ -1,0 +1,32 @@
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--offwhite);
+  border: 1px solid var(--gray-mid);
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s;
+  margin-top: 1.5rem;
+  width: fit-content;
+}
+
+.github-link:hover {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.github-link__icon {
+  width: 18px;
+  height: 18px;
+  filter: invert(1);
+  transition: filter 0.2s;
+}
+
+.github-link:hover .github-link__icon {
+  filter: invert(1) sepia(1) saturate(3) hue-rotate(5deg);
+}

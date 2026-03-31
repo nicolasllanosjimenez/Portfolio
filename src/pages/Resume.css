@@ -1,0 +1,74 @@
+.resume {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8rem 2.5rem 5rem;
+}
+
+.resume__eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: 1rem;
+  max-width: none;
+}
+
+.resume__title {
+  color: var(--offwhite);
+}
+
+.resume__title--yellow {
+  color: var(--yellow);
+}
+
+.resume__divider {
+  width: 180px;
+  height: 4px;
+  background: var(--red);
+  margin: 1.5rem 0 2rem;
+  transform: rotate(-0.6deg);
+}
+
+.resume__note {
+  margin-bottom: 2rem;
+  color: var(--gray-muted);
+  font-size: 0.78rem;
+}
+
+.resume__actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.resume__btn {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 0.85rem 2rem;
+  border: 1px solid;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.resume__btn--primary {
+  background: var(--yellow);
+  color: var(--black);
+  border-color: var(--yellow);
+}
+
+.resume__btn--primary:hover {
+  background: var(--offwhite);
+  border-color: var(--offwhite);
+}
+
+.resume__btn--ghost {
+  background: transparent;
+  color: var(--offwhite);
+  border-color: var(--offwhite);
+}
+
+.resume__btn--ghost:hover {
+  background: var(--gray-dark);
+}

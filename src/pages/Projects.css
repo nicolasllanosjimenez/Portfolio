@@ -1,0 +1,127 @@
+.projects {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8rem 2.5rem 5rem;
+}
+
+.projects__eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: 1rem;
+  max-width: none;
+}
+
+.projects__title {
+  color: var(--offwhite);
+}
+
+.projects__title--yellow {
+  color: var(--yellow);
+}
+
+.projects__divider {
+  width: 180px;
+  height: 4px;
+  background: var(--red);
+  margin: 1.5rem 0 4rem;
+  transform: rotate(-0.6deg);
+}
+
+.projects__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.project-card {
+  display: block;
+  background: var(--gray-dark);
+  border: 1px solid var(--gray-mid);
+  padding: 2.5rem;
+  transition: border-color 0.25s, background 0.25s;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card--index:hover {
+  border-color: var(--yellow);
+  background: #1f1f1f;
+}
+
+.project-card--index:hover .project-card__cta {
+  color: var(--yellow);
+  letter-spacing: 4px;
+}
+
+.project-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-card__num {
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  color: var(--yellow);
+}
+
+.project-card__status {
+  font-size: 0.62rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border: 1px solid;
+}
+
+.project-card__status--ongoing {
+  color: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.project-card__status--completed {
+  color: var(--gray-muted);
+  border-color: var(--gray-muted);
+}
+
+.project-card__title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  color: var(--offwhite);
+  margin-bottom: 0.3rem;
+}
+
+.project-card__subtitle {
+  font-size: 0.72rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--red);
+  margin-bottom: 1.2rem;
+  max-width: none;
+}
+
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1.5rem;
+}
+
+.project-card__tag {
+  font-size: 0.65rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--gray-text);
+  border: 1px solid var(--gray-mid);
+  padding: 3px 10px;
+}
+
+.project-card__cta {
+  font-size: 0.68rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gray-muted);
+  transition: all 0.25s;
+}
