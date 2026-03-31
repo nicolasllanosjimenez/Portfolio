@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import '../ProjectDetail.css'
+import { asset } from '../../utils/assetUrl'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -58,7 +59,7 @@ export default function EarSketch() {
 
           {/* Imagen 1 — screenshot de la plataforma EarSketch */}
           <div className="detail__media">
-            <img src="assets/earsketch.jpg" alt="EarSketch platform interface" />
+            <img src={asset('assets/earsketch.jpg')} alt="EarSketch platform interface" />
             <p className="detail__media-caption">EarSketch — coding through music in the browser</p>
           </div>
         </motion.section>

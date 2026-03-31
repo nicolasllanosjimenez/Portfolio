@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import GithubLink from '../../components/GithubLink'
 import '../ProjectDetail.css'
 import './MidiController.css'
+import { asset } from '../../utils/assetUrl'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -107,19 +108,19 @@ export default function MidiController() {
           {/* Galería de materiales — agrega tus fotos aquí */}
           <div className="midi__gallery">
             <div className="detail__media midi__gallery-item">
-              <img src="assets/midi-01.jpg" alt="Arduino Leonardo" />
+              <img src={asset('assets/midi-01.jpg')} alt="Arduino Leonardo" />
               <p className="detail__media-caption">Arduino Leonardo — native USB MIDI support</p>
             </div>
             <div className="detail__media midi__gallery-item">
-              <img src="assets/midi-02.jpg" alt="Breadboard setup" />
+              <img src={asset('assets/midi-02.jpg')} alt="Breadboard setup" />
               <p className="detail__media-caption">Component detail — buttons</p>
             </div>
             <div className="detail__media midi__gallery-item">
-              <img src="assets/midi-03.jpg" alt="Detail of components" />
+              <img src={asset('assets/midi-03.jpg')} alt="Detail of components" />
               <p className="detail__media-caption">Component detail — potentiometer</p>
             </div>
             <div className="detail__media midi__gallery-item">
-              <img src="assets/midi-04.jpg" alt="Full circuit assembled" />
+              <img src={asset('assets/midi-04.jpg')} alt="Full circuit assembled" />
               <p className="detail__media-caption">Full circuit — assembled and connected</p>
             </div>
           </div>

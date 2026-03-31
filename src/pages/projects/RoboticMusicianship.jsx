@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import '../ProjectDetail.css'
+import { asset } from '../../utils/assetUrl'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -95,7 +96,7 @@ export default function RoboticMusicianship() {
 
           {/* Imagen 2 — diagrama, sketch, o foto del proceso */}
           <div className="detail__media">
-            <img src="/assets/gesture.jpg" alt="Gesture system diagram" />
+            <img src={asset('assets/gesture.jpg')} alt="Gesture system diagram" />
             <p className="detail__media-caption">Gesture system — mapping musical states to motor behavior</p>
           </div>
         </motion.section>

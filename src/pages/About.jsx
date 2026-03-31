@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import './About.css'
+import { asset } from '../utils/assetUrl'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -67,7 +68,7 @@ export default function About() {
         >
           <div className="about__photo-frame">
             <img
-              src="assets/nicolas.jpg"
+              src={asset('assets/nicolas.jpg')}
               alt="Nicolas Llanos Jiménez"
               className="about__photo"
             />

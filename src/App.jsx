@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
@@ -12,7 +12,7 @@ import EarSketch from './pages/projects/EarSketch'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -25,6 +25,6 @@ export default function App() {
         <Route path="/projects/job-dashboard" element={<JobDashboard />} />
         <Route path="/projects/earsketch" element={<EarSketch />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
