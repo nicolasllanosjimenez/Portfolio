@@ -1,1 +1,2 @@
-export const asset = (path) => `${import.meta.env.BASE_URL}${path}`
+const isProd = window.location.hostname !== 'localhost'
+export const asset = (path) => isProd ? `/Portfolio/${path}` : `/${path}`
