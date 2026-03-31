@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import './Resume.css'
+import { asset } from '../utils/assetUrl'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 20 },
@@ -26,10 +27,10 @@ export default function Resume() {
           Download or open the PDF directly.
         </motion.p>
         <motion.div className="resume__actions" variants={fadeUp}>
-          <a href="/assets/resume.pdf" download="Nicolas_Llanos_Resume.pdf" className="resume__btn resume__btn--primary">
+          <a href={asset('assets/resume.pdf')} download="Nicolas_Llanos_Resume.pdf" className="resume__btn resume__btn--primary">
             Download PDF
           </a>
-          <a href="/assets/resume.pdf" target="_blank" rel="noreferrer" className="resume__btn resume__btn--ghost">
+          <a href={asset('assets/resume.pdf')} target="_blank" rel="noreferrer" className="resume__btn resume__btn--ghost">
             Open in new tab
           </a>
         </motion.div>
