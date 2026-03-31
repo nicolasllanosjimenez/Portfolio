@@ -58,12 +58,14 @@ export default function RoboticMusicianship() {
             engineering that layer into a robot.
           </p>
 
-          {/* Imagen 1 — reemplaza src con tu foto/imagen del lab o de Shimon */}
           <div className="detail__media detail__media--video">
-            <video controls preload="metadata">
-              <source src="/assets/shimon.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+              src="https://www.youtube.com/embed/8OCDkJ6IEJU"
+              title="MIDI Controller Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ width: '100%', height: '315px', border: 'none' }}
+            />
             <p className="detail__media-caption">Shimon — robotic marimba player, Georgia Tech</p>
           </div>
         </motion.section>

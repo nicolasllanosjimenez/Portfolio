@@ -69,10 +69,13 @@ export default function MidiController() {
           </p>
 
           <div className="detail__media detail__media--video">
-            <video controls preload="metadata">
-              <source src="/assets/midi-controller-demo.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <iframe
+              src="https://www.youtube.com/embed/MMXyTBbSJS0"
+              title="MIDI Controller Demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              style={{ width: '100%', height: '315px', border: 'none' }}
+            />
             <p className="detail__media-caption">Demo — controller interfacing with FL Studio</p>
           </div>
         </motion.section>
