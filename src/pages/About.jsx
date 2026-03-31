@@ -67,7 +67,7 @@ export default function About() {
         >
           <div className="about__photo-frame">
             <img
-              src="/assets/nicolas.jpg"
+              src="assets/nicolas.jpg"
               alt="Nicolas Llanos Jiménez"
               className="about__photo"
             />

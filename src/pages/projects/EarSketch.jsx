@@ -58,7 +58,7 @@ export default function EarSketch() {
 
           {/* Imagen 1 — screenshot de la plataforma EarSketch */}
           <div className="detail__media">
-            <img src="/assets/earsketch.jpg" alt="EarSketch platform interface" />
+            <img src="assets/earsketch.jpg" alt="EarSketch platform interface" />
             <p className="detail__media-caption">EarSketch — coding through music in the browser</p>
           </div>
         </motion.section>
