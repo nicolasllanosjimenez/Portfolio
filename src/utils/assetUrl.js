@@ -1,2 +1,1 @@
-const isProd = window.location.hostname !== 'localhost'
-export const asset = (path) => isProd ? `/Portfolio/${path}` : `/${path}`
+export const asset = (path) => `/${path}`
