@@ -68,17 +68,6 @@ export default function MidiController() {
             that any DAW can interpret. Turn a knob, change a filter. It's a
             direct physical connection between the body and the sound.
           </p>
-
-          <div className="detail__media detail__media--video">
-            <iframe
-              src="https://www.youtube.com/embed/MMXyTBbSJS0"
-              title="MIDI Controller Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              style={{ width: '100%', height: '315px', border: 'none' }}
-            />
-            <p className="detail__media-caption">Demo — controller interfacing with FL Studio</p>
-          </div>
         </motion.section>
 
         {/* Materials */}
@@ -105,25 +94,6 @@ export default function MidiController() {
             parameter in the DAW.
           </p>
 
-          {/* Galería de materiales — agrega tus fotos aquí */}
-          <div className="midi__gallery">
-            <div className="detail__media midi__gallery-item">
-              <img src={asset('assets/midi-01.jpg')} alt="Arduino Leonardo" />
-              <p className="detail__media-caption">Arduino Leonardo — native USB MIDI support</p>
-            </div>
-            <div className="detail__media midi__gallery-item">
-              <img src={asset('assets/midi-02.jpg')} alt="Breadboard setup" />
-              <p className="detail__media-caption">Component detail — buttons</p>
-            </div>
-            <div className="detail__media midi__gallery-item">
-              <img src={asset('assets/midi-03.jpg')} alt="Detail of components" />
-              <p className="detail__media-caption">Component detail — potentiometer</p>
-            </div>
-            <div className="detail__media midi__gallery-item">
-              <img src={asset('assets/midi-04.jpg')} alt="Full circuit assembled" />
-              <p className="detail__media-caption">Full circuit — assembled and connected</p>
-            </div>
-          </div>
         </motion.section>
 
         {/* How it works — software */}
