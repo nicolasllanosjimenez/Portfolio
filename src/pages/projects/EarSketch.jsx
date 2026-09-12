@@ -115,8 +115,8 @@ export default function EarSketch() {
         <Link to="/projects/job-dashboard" className="detail__back">
           ← Job Dashboard
         </Link>
-        <Link to="/projects" className="detail__next">
-          All projects →
+        <Link to="/projects/gt-movies-store" className="detail__next">
+          Next: GT Movies Store →
         </Link>
       </motion.div>
     </main>

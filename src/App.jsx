@@ -9,6 +9,7 @@ import RoboticMusicianship from './pages/projects/RoboticMusicianship'
 import MidiController from './pages/projects/MidiController'
 import JobDashboard from './pages/projects/JobDashboard'
 import EarSketch from './pages/projects/EarSketch'
+import GTMoviesStore from './pages/projects/GTMoviesStore'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/projects/midi-controller" element={<MidiController />} />
         <Route path="/projects/job-dashboard" element={<JobDashboard />} />
         <Route path="/projects/earsketch" element={<EarSketch />} />
+        <Route path="/projects/gt-movies-store" element={<GTMoviesStore />} />
       </Routes>
     </HashRouter>
   )

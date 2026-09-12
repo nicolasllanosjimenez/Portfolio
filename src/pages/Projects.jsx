@@ -35,6 +35,14 @@ const projects = [
     tags: ['Web', 'Education', 'Open Source'],
     status: 'Ongoing',
   },
+  {
+    id: '05',
+    slug: 'gt-movies-store',
+    title: 'GT Movies Store',
+    subtitle: 'Full-Stack Web App',
+    tags: ['Python', 'Django', 'SQL'],
+    status: 'Completed',
+  },
 ]
 
 export default function Projects() {
