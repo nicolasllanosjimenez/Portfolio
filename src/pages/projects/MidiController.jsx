@@ -1,9 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import GithubLink from '../../components/GithubLink'
 import '../ProjectDetail.css'
 import './MidiController.css'
-import { asset } from '../../utils/assetUrl'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
